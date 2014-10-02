@@ -6,9 +6,9 @@
         id        = "se.aleholm.haradsvagen"
         version   = "1.0.0">        
     
-    <name>Sävsjö Häradsväg</name>
+    <name>EHN Sävsjö Häradsväg</name>
         <description>
-            EHN Sävsjö Häradsväg - En informationsapp för Sävsjö Häradsväg
+             Sävsjö Häradsväg - En informationsapp för Sävsjö Häradsväg
         </description>
         <author email="info@aleholm.savsjo.se" href="http://www.savsjo.se">
             Teknikprogrammet TE12, Aleholm
