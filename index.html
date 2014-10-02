@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="css/stilmall.css">
         <script type="text/javascript" async="" src="js/myscript.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-
+        <script type='application/javascript' src='js/fastclick.js'></script>
     </head>
 <body class="pushmenu-push">
 <nav class="pushmenu pushmenu-left">
@@ -60,8 +60,10 @@ Åk vägen och stanna till vid de olika sevärdheterna. Vid de olika stoppen 
         function Resize33(pic1)
         {
             var p1 = document.getElementById(pic1);
-            alert("Old h: " + p1.height);
-            newH = p1.height;
+  //          alert("Old h: " + p1.height);
+            newH = p1.width;
+            p1.removeAttribute("width");
+            p1.width = 50;
             //  p1.style.height = 500;
     
 
@@ -69,9 +71,11 @@ Åk vägen och stanna till vid de olika sevärdheterna. Vid de olika stoppen 
 
         function Resize34(pic2)
         {
-            alert("Height: " + newH);
+    //        alert("Height: " + newH);
             var p2 = document.getElementById(pic2);
-            p2.height = newH;
+            p2.removeAttribute("width");
+            p2.height = 50;
+            p1.width = 50;
         }
     
     </script>
