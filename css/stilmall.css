@@ -3,8 +3,7 @@ html {
 }
 
 body {
-    margin:0;
-    margin-top: 0;
+    margin-top:0;
     margin-left: auto;
     margin-right: auto;
     width:100%;
@@ -35,13 +34,13 @@ body {
 }
 
 #slider {
-    height: 150px;
+
     border-bottom-style: solid;
     border-bottom-width: 7px;
     border-bottom-color: black;
 }
 
-#bild1  {
+#bild1{
         
     box-sizing: border-box;
     -moz-box-sizing:border-box;
@@ -50,11 +49,11 @@ body {
         border-left: 0px;
         
         width: 33%;
-        height:150px; 
+      min-width: inherit;
         float:left;
 }
 
-#bild2 {
+ #bild2 {
     box-sizing: border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -62,7 +61,7 @@ body {
     border-style: solid;
         float:right;
         width:33%;
-        height:150px;
+   min-width: inherit;
 }
 
 #bild3 {
@@ -74,13 +73,12 @@ body {
     border-right: 0px;
     
     float:right;
-    display:flex;
+   
     margin-left: auto;
     margin-right: auto;
     width:34%;
     min-width: inherit;
     
-    height:150px;
 }
 
 #kossa {
@@ -97,11 +95,6 @@ body {
     height: inherit;
 }
 
-
-
-body {
-        margin: 0;
-}
  
 .pushmenu {
         background: #3c3933;
@@ -182,14 +175,16 @@ body {
 }
  
 .buttonset {
+    
         background: linear-gradient(center top , #6b85b3, #334d86);
         background:-moz-linear-gradient(center top , #6b85b3, #334d86);
-    background: #F6F6F6;
+    background: #000000;
         height: 16px;
-        padding: 10px 20px 20px;
+        padding: 10px 10px 15px;
 }
  
 section.content {
+    margin:0;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 10px 20px;     
+        padding: 0;     
 }
