@@ -79,16 +79,18 @@ body {
     
 }
 
-#kossa {
+#left_pic {
     width: 100%;
     height: inherit;
 }
-#kyrka {
+
+#middle_pic{
     width:100%;
     height: inherit;
     
 }
-#blomma {
+
+#right_pic {
     width: 100%;
     height: inherit;
 }
