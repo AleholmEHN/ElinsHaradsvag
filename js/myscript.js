@@ -14,14 +14,14 @@
 
 var bestHeight = "100px";
 
-function Resize33(pic1)
+function GetSize(pic1)
 {
     var p1 = document.getElementById(pic1);
     bestHeight = p1.height + "px";
 
 }
 
-function Resize34(pic2)
+function SetSize(pic2)
 {
     var p2 = document.getElementById(pic2);
 //    p2.removeAttribute("height");
