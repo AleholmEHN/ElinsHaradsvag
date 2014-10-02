@@ -1,3 +1,7 @@
+function Test()
+{
+    alert("Testar");
+} 
 
 /*function Resize(picture)
 {
@@ -5,9 +9,9 @@
     var x = p1.width;
     var newH = x*132/200;
     p1.height = newH;
-}*/
+}
 
-/*
+
 
 function Resize33(pic1)
 {
@@ -28,9 +32,5 @@ function Resize34(pic2)
  /*   p2.height = newH;
 }*/
 
-/*function Test()
-{
-    alert("Testar");
-} */
 
 
