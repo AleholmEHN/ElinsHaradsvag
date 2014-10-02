@@ -1,9 +1,5 @@
 var bestHeight = "100px";
 
-// Verkar inte funka att båda funktionerna anropas.
-// Och height verkar inte funka heller!
-// Vad gjorde egentligen flex för nytta?
-
 function Resize33(pic1)
 {
     var p1 = document.getElementById(pic1);
