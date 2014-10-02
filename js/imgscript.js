@@ -1,4 +1,4 @@
-var bestHeight = "160px";
+var bestHeight = "100px";
 
 // Verkar inte funka att båda funktionerna anropas.
 // Och height verkar inte funka heller!
@@ -8,7 +8,7 @@ function Resize33(pic1)
 {
     var p1 = document.getElementById(pic1);
 //    var x = p1.width;
-    bestHeight = p1.style.height;
+//    bestHeight = p1.style.height;
  //   p1.removeAttribute("height");
 //    p1.style.height = bestHeight;
 //    p1.removeAttribute("width");
