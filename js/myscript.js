@@ -24,7 +24,6 @@ function GetSize(pic1)
 function SetSize(pic2)
 {
     var p2 = document.getElementById(pic2);
-//    p2.removeAttribute("height");
     p2.style.height = bestHeight;
 }
 

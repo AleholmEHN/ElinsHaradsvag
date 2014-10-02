@@ -1,0 +1,15 @@
+<widget id="se.aleholm.haradsvagen" version="0.0.1">
+        <name>Sävsjö Häradsväg</name>
+        <description>
+            Sävsjö Häradsväg - En informationsapp utformad av elever på Teknikprogrammet Aleholm.
+        </description>
+        <author email="info@aleholm.savsjo.se" href="http://www.savsjo.se">
+            Teknikprogrammet, Aleholm
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <preference name="Orientation" value="portrait" />
+        <icon src="ikon.png" />
+
+
+    </widget>
