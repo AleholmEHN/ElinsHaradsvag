@@ -2,7 +2,9 @@
     FastClick.attach(document.body);
 });*/
 
-$(document).ready(function() {
+
+
+        $(document).ready(function() {
                 $menuLeft = $('.pushmenu-left');
                 $nav_list = $('#nav_list');
                  
@@ -11,7 +13,8 @@ $(document).ready(function() {
                         $('.pushmenu-push').toggleClass('pushmenu-push-toright');
                         $menuLeft.toggleClass('pushmenu-open');
                 });
-});
+        });
+
 
 
 /*function Resize(picture)
