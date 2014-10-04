@@ -31,8 +31,9 @@ body {
 #slider {
 
     border-bottom-style: solid;
-    border-bottom-width: 7px;
-<!--    border-bottom-color: #ff00ff;-->
+    border-bottom-width: 1px;
+
+    padding-bottom: 0px;
 }
 
 #bild1{
@@ -46,11 +47,10 @@ body {
         width: 33%;
       min-width: inherit;
         float:left;
-    border-bottom-color: red;
-            display:flex;
  
+            display:flex;
 
-    padding-bottom: 0px;
+
 }
 
  #bild2 {
@@ -63,9 +63,10 @@ body {
         width:33%;
 
    min-width: inherit;
-     border-bottom-color: red;
-     padding-bottom: 0px;
+
              display:flex;
+
+
  
 }
 
@@ -84,13 +85,10 @@ body {
     margin-right: auto;
     width:34%;
     min-width: inherit;
-    border-bottom-color: yellow;
+
         display:flex;
- 
-    padding-bottom: 0px;
-    
-    flex-grow: 1;
-    flex-direction: column;
+
+
 }
 
 #karta {
