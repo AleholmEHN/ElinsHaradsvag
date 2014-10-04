@@ -61,6 +61,7 @@ body {
    min-width: inherit;
          display:flex;
      border-bottom-color: red;
+     padding-bottom: 0px;
 }
 
 #bild3 {
