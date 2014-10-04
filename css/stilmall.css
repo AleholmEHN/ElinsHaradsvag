@@ -32,7 +32,7 @@ body {
 
     border-bottom-style: solid;
     border-bottom-width: 1px;
-
+    margin:0;
     padding: 0;
 }
 
@@ -55,6 +55,8 @@ body {
 }
 
  #bild2 {
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -72,6 +74,8 @@ body {
 }
 
 #bild3 {
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -88,7 +92,6 @@ body {
     min-width: inherit;
 
         display:flex;
- background-size: contain;
 
 }
 
