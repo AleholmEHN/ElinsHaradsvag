@@ -17,8 +17,8 @@ var bestHeight = "100px";
 function GetSize(pic1)
 {
     var p1 = document.getElementById(pic1);
-    bestHeight = p1.height + "px";
-    alert("width: " + p1.width);
+    bestHeight = p1.height + 5 + "px";
+//    alert("width: " + p1.width);
 
 }
 
