@@ -46,9 +46,10 @@ body {
         width: 33%;
       min-width: inherit;
         float:left;
-    display:flex;
     border-bottom-color: red;
-        height:100%;
+            display:flex;
+ 
+
     padding-bottom: 0px;
 }
 
@@ -60,11 +61,12 @@ body {
     border-style: solid;
         float:right;
         width:33%;
-     height:100%;
+
    min-width: inherit;
-         display:flex;
      border-bottom-color: red;
      padding-bottom: 0px;
+             display:flex;
+ 
 }
 
 #bild3 {
@@ -82,10 +84,13 @@ body {
     margin-right: auto;
     width:34%;
     min-width: inherit;
-        display:flex;
     border-bottom-color: yellow;
-        height:100%;
+        display:flex;
+ 
     padding-bottom: 0px;
+    
+    flex-grow: 1;
+    flex-direction: column;
 }
 
 #karta {
