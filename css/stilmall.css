@@ -32,7 +32,7 @@ body {
 
     border-bottom-style: solid;
     border-bottom-width: 7px;
-    border-bottom-color: black;
+<!--    border-bottom-color: #ff00ff;-->
 }
 
 #bild1{
@@ -47,6 +47,7 @@ body {
       min-width: inherit;
         float:left;
     display:flex;
+    border-bottom-color: red;
 }
 
  #bild2 {
@@ -59,6 +60,7 @@ body {
         width:33%;
    min-width: inherit;
          display:flex;
+     border-bottom-color: red;
 }
 
 #bild3 {
@@ -68,6 +70,7 @@ body {
     border-style: solid;
     border-left: 0px;
     border-right: 0px;
+    border-spacing: 0px;
     
     float:right;
    
@@ -76,7 +79,7 @@ body {
     width:34%;
     min-width: inherit;
         display:flex;
-    
+    border-bottom-color: yellow;
 }
 
 #karta {

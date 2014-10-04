@@ -27,3 +27,8 @@ function SetSize(pic2)
     p2.style.height = bestHeight;
 }
 
+function KartSize(pic3)
+{
+    var p3 = document.getElementById(pic3);
+    p3.style.height = totalHeight + "px";
+}
