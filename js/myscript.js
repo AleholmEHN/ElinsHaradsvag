@@ -27,6 +27,7 @@ function SetSize(pic2)
     var p2 = document.getElementById(pic2);
     p2.removeAttribute("height");
     p2.style.height = bestHeight;
+    p2.style.paddingBottom = 0;
     
 }
 
