@@ -22,9 +22,9 @@ function GetSize(pic1)
     
     // Försöker fixa vita kanten
     var slider = document.getElementById(slider);
-    slider.style.height = 100px;
+    slider.style.height = "100px";
     var b1 = document.getElementById(bild1);
-    bild1.style.height = 100px;
+    bild1.style.height = "100px";
     bild1.style.marginBottom = 0;
     bild1.style.paddingBottom = 0;
 
