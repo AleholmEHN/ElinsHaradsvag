@@ -118,17 +118,19 @@ body {
 #left_pic {
     width: 100%;
     height: inherit;
+    background-color: red;
 }
 
 #middle_pic{
     width:100%;
     height: inherit;
-    
+    background-color: red;    
 }
 
 #right_pic {
     width: 100%;
     height: inherit;
+    background-color: red;
 }
 
  
