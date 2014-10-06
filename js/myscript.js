@@ -18,10 +18,13 @@ function GetSize(pic1)
 {
     var p1 = document.getElementById(pic1);
     bestHeight = p1.height + "px";
+    
+    
+    // Försöker fixa vita kanten
     var slider = document.getElementById(slider);
-    slider.style.height = bestHeight;
+    slider.style.height = 100px;
     var b1 = document.getElementById(bild1);
-    bild1.style.height = bestHeight;
+    bild1.style.height = 100px;
     bild1.style.marginBottom = 0;
     bild1.style.paddingBottom = 0;
 
