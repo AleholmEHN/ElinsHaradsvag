@@ -18,22 +18,16 @@ function GetSize(pic1)
 {
     var p1 = document.getElementById(pic1);
     bestHeight = p1.height + "px";
-    
-    
-    // Försöker fixa vita kanten
-/*    var slider = document.getElementById(slider);
-    slider.style.height = "100px";
-    var b1 = document.getElementById(bild1);
-    bild1.style.height = "100px";
-    bild1.style.marginBottom = 0;
-    bild1.style.paddingBottom = 0;*/
-    
+ 
+    // Bild height
     var p3 = document.getElementById('bild1');
-    p3.style.height = bestHeight;
+    var bildHeight = p1.height + p3.style.borderBottomWidth + "px";
+
+    p3.style.height = bildHeight;
     p3 = document.getElementById('bild2');
-    p3.style.height = bestHeight;
+    p3.style.height = bildHeight;
     p3 = document.getElementById('bild3');
-    p3.style.height = bestHeight;
+    p3.style.height = bildHeight;
 
 
 
