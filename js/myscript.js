@@ -28,11 +28,11 @@ function GetSize(pic1)
     bild1.style.marginBottom = 0;
     bild1.style.paddingBottom = 0;*/
     
-    var p3 = document.getElementById(bild1);
+    var p3 = document.getElementById('bild1');
     p3.style.height = bestHeight;
-    p3 = document.getElementById(bild2);
+    p3 = document.getElementById('bild2');
     p3.style.height = bestHeight;
-    p3 = document.getElementById(bild3);
+    p3 = document.getElementById('bild3');
     p3.style.height = bestHeight;
 
 

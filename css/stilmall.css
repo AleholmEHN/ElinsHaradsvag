@@ -88,6 +88,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width:34%;
+    
     min-width: inherit;
 
         display:flex;
@@ -117,26 +118,23 @@ body {
 
 #left_pic {
     width: 100%;
-    height: inherit;
+    
     background-color: red;
-   padding:0;
-    margin:0;
+
 }
 
 #middle_pic{
     width:100%;
-    height: inherit;
+    
     background-color: red;  
-    padding:0;
-    margin:0;
+
 }
 
 #right_pic {
     width: 100%;
-    height: inherit;
+    
     background-color: red;
-   padding:0;
-    margin:0;
+
     
 }
 
