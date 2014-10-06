@@ -19,6 +19,7 @@ function GetSize(pic1)
     var p1 = document.getElementById(pic1);
     bestHeight = p1.height + "px";
  
+    p1.style.height = bestHeight;
     // Bild height
     var p3 = document.getElementById('bild1');
     var bildHeight = p1.height + 6;     // Dubbel marginal, uppe och nere
