@@ -20,6 +20,8 @@ function GetSize(pic1)
     bestHeight = p1.height + "px";
     var slider = document.getElementById(slider);
     slider.style.height = bestHeight;
+    var b1 = document.getElementById(bild1);
+    bild1.style.height = bestHeight;
 
 }
 
