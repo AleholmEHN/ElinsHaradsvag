@@ -22,6 +22,8 @@ function GetSize(pic1)
     slider.style.height = bestHeight;
     var b1 = document.getElementById(bild1);
     bild1.style.height = bestHeight;
+    bild1.style.marginBottom = 0;
+    bild1.style.paddingBottom = 0;
 
 }
 
