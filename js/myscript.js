@@ -21,7 +21,8 @@ function GetSize(pic1)
  
     // Bild height
     var p3 = document.getElementById('bild1');
-    var bildHeight = p1.height + p3.style.borderBottomWidth + "px";
+    var bildHeight = bestHeight + 3;
+    bildHeight += "px";
 
     p3.style.height = bildHeight;
     p3 = document.getElementById('bild2');
