@@ -18,17 +18,16 @@ function GetSize(pic1)
 {
     var p1 = document.getElementById(pic1);
     bestHeight = p1.height + "px";
-//    alert("width: " + p1.width);
+    var slider = document.getElementById(slider);
+    slider.style.height = bestHeight;
 
 }
 
 function SetSize(pic2)
 {
     var p2 = document.getElementById(pic2);
-    p2.removeAttribute("height");
     p2.style.height = bestHeight;
-    p2.style.paddingBottom = 0;
-    
+     
 }
 
 function KartSize(pic3)

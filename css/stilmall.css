@@ -1,5 +1,6 @@
 html {
-    background-color:#F6F6F6;
+    background-color:#F6F6F6;  
+
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     margin-right: auto;
     width:100%;
     background-color:#F6F6F0;
+
             <!-- border-style: solid;
             border-width: 10px;
             border-color: blue;-->
