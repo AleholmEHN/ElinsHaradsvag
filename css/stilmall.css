@@ -1,22 +1,34 @@
 html {
-    background-color:#F6F6F6;  
+    background-color:#F6F6F6;
+}
 
+main{
+    background-color: green;
 }
 
 body {
-    margin-top:0;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     width:100%;
     background-color:#F6F6F0;
-
-   
+            <!-- border-style: solid;
+            border-width: 10px;
+            border-color: blue;-->
 }
 
+#Kartbild
+{
+ 
+        width:100%;
+        height:100%;   
+    
+    
+}
 #ruta1 {
-    padding: 16px;
+    padding: 12px;
     font-family: sans-serif;
-    font-size: 14pt;
+    font-size: 14pt;    
 }
 
 #header {
@@ -27,15 +39,18 @@ body {
 
 }
 
-
 #slider {
-    display: flex;
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 7px;
+    
     border-bottom-color: #4F2E1D;
- }
+    display: flex;
 
-#bild1{
+    
+}
+
+#bild1  {
+        
     box-sizing: border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -43,13 +58,12 @@ body {
         border-left: 0px;
         
         width: 33%;
+        display: flex; 
         float:left;
-        border-color: #4F2E1D;
-            display:flex;
-    
+   border-color: #4F2E1D;
 }
 
- #bild2 {
+#bild2 {
     box-sizing: border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -57,8 +71,8 @@ body {
     border-style: solid;
         float:right;
         width:33%;
-             display:flex;
-         border-color: #4F2E1D;
+        display: flex;
+       border-color: #4F2E1D;
 }
 
 #bild3 {
@@ -68,57 +82,33 @@ body {
     border-style: solid;
     border-left: 0px;
     border-right: 0px;
-
     
     float:right;
-   
+    display:flex;
     margin-left: auto;
     margin-right: auto;
     width:34%;
-        border-color: #4F2E1D;    
     min-width: inherit;
-
-    display:flex;
-
-}
-
-#karta {
-    box-sizing: border-box;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-
-   
-    margin: 0;
-    padding: 0;
-    width:100%;
-    height: 100%;
-    min-width: inherit;
-        display:flex;
     
+    display: flex;
+       border-color: #4F2E1D;
 }
-
-#appkarta{
-    width: inherit;
-        height:inherit;
-}
-
 
 #left_pic {
     width: 100%;
-     height: inherit;
+    height: inherit;
 }
-
-#middle_pic{
+#middle_pic {
     width:100%;
-     height: inherit;
-
-}
-
-#right_pic {
-    width: 100%;
     height: inherit;
     
 }
+#right_pic {
+    width: 100%;
+    height: inherit;
+}
+
+
 
  
 .pushmenu {
@@ -153,7 +143,7 @@ body {
 }
  
 .pushmenu a:hover {
-        background:#258ecd;      
+        background:#4F2E1D;      
 }
  
 .pushmenu a:active {
@@ -200,16 +190,21 @@ body {
 }
  
 .buttonset {
-    
+        
         background: linear-gradient(center top , #6b85b3, #334d86);
         background:-moz-linear-gradient(center top , #6b85b3, #334d86);
-    background: #4F2E1D;
+        background: #4F2E1D;
         height: 20px;
         padding: 10px 10px 15px;
+        height: 16px;
+        padding: 10px 20px 20px;
 }
  
 section.content {
-    margin:0;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 0;     
+        padding: 3px 0px;   
+        
 }
+
+
+
