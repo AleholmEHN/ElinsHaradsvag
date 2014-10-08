@@ -16,7 +16,7 @@ function fixPicSize()
 {
     var p1 = document.getElementById('left_pic');
     var picHeight = p1.height + "px";
-    var bildHeight = p1.height + 6 + "px";
+    var bildHeight = p1.height + 6+ "px";
     p1.style.height = picHeight;
     p1 = document.getElementById('middle_pic');
     p1.style.height = picHeight;
