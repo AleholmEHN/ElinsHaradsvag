@@ -37,6 +37,9 @@ function KartSize(pic3)
 {
 //    alert("Height: " + totalHeight);
     var p3 = document.getElementById(pic3);
-    p3.style.height = (totalHeight - 500) + "px";
-    p3.style.width= (totalWidth - 50) + "px";
+    var p4 = document.getElementById('buttonSet');
+    var newH = screen.height - p4.height;
+
+    p3.style.height = newH + "px";
+
 }
