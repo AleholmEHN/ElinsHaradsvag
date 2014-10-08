@@ -33,7 +33,7 @@ function fixPicSize()
     
 }
 
-function KartSize(pic3)
+/*function KartSize(pic3)
 {
 //    alert("Height: " + totalHeight);
     var p3 = document.getElementById(pic3);
@@ -42,4 +42,4 @@ function KartSize(pic3)
 
     p3.style.height = newH + "px";
 
-}
+}*/
