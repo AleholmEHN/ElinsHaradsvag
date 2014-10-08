@@ -44,13 +44,13 @@ function fixPicSize()
     
 }
 
-/*function KartSize(pic3)
+function KartSize(pic3)
 {
-//    alert("Height: " + totalHeight);
+    alert("Height: " + screen.height);
     var p3 = document.getElementById(pic3);
     var p4 = document.getElementById('buttonSet');
     var newH = screen.height - p4.height;
 
     p3.style.height = newH + "px";
 
-}*/
+}
