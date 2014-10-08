@@ -1,11 +1,10 @@
 
-
+$(function() {
+    FastClick.attach(document.body);
+});
         $(document).ready(function() {
             
-            
-                FastClick.attach(document.body);
-
-                $menuLeft = $('.pushmenu-left');
+                 $menuLeft = $('.pushmenu-left');
                 $nav_list = $('#nav_list');
                  
                 $nav_list.click(function() {
