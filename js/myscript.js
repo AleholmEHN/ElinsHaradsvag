@@ -31,8 +31,8 @@ function fixPicSize()
     p1.style.height = bildHeight;
     p1 = document.getElementById('bild3');
     p1.style.height = bildHeight;
-    p1 = document.getElementById('slider');
-    p1.style.height = picHeight;
+//    p1 = document.getElementById('slider');
+//    p1.style.height = picHeight;
     
 }
 
