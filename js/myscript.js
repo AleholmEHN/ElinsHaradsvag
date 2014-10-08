@@ -51,7 +51,9 @@ function KartSize(pic3)
     //alert("curr h: " + p3.height);
     var p4 = document.getElementById('buttonSet');
     var newH = window.innerHeight - p4.height;
+    newH += "px";
     //alert("new h " + newH);
-    p3.style.height = newH + "px";
+    p3.removeAttribute("height");
+    p3.style.height = newH;
 
 }
