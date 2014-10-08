@@ -80,8 +80,8 @@ body {
    
     margin-left: 0;
     margin-right: 0;
-    width:33%;
-    border-color: red;    
+    width:34%;
+    border-color: #4F2E1D;    
     min-width: inherit;    
     display:flex;
     
@@ -111,7 +111,8 @@ body {
 
 #left_pic {
     width: 100%;
-     height: inherit;
+    height: inherit;
+    
 }
 
 #middle_pic{
@@ -217,5 +218,5 @@ body {
 section.content {
     margin:0;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 3px 0px;     
+        padding: 0px 0px;     
 }
