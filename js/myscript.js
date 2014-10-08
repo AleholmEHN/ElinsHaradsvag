@@ -35,6 +35,6 @@ function fixPicSize()
 
 function KartSize(pic3)
 {
-    var p3 = document.getElementById(pic3);
-    p3.style.height = totalHeight + "px";
+//    var p3 = document.getElementById(pic3);
+//    p3.style.height = totalHeight + "px";
 }
