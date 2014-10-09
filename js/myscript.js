@@ -46,10 +46,11 @@ function fixPicSize()
 
 function KartSize(pic3)
 {
-    alert("Height: " + window.innerHeight);
+//    alert("Height: " + window.innerHeight);
     var p3 = document.getElementById(pic3);
     //alert("curr h: " + p3.height);
     var p4 = document.getElementById('buttonSet');
+    alert("buttonset h: " + p4.style.height);
     var newH = window.innerHeight - p4.height;
     newH += "px";
     //alert("new h " + newH);
