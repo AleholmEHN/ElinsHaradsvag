@@ -17,7 +17,7 @@ $(function() {
 
 function fixPicSize()
 {
-    var p1 = document.getElementById('left_pic');
+ /*   var p1 = document.getElementById('left_pic');
     var picHeight = p1.height + "px";
     var bildHeight = p1.height + 6+ "px";
 
@@ -40,7 +40,7 @@ function fixPicSize()
     p1.style.height = bildHeight;
     
     p1 = document.getElementById('bild3');
-    p1.style.height = bildHeight;
+    p1.style.height = bildHeight;*/
     
 }
 
