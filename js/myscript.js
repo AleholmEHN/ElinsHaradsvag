@@ -16,7 +16,7 @@ $(function() {
 
 
 function fixPicSize()
-{
+{    
     var p1 = document.getElementById('left_pic');
     var picHeight = p1.height + "px";
     var bildHeight = p1.height + 6+ "px";
@@ -46,15 +46,15 @@ function fixPicSize()
 
 function KartSize(pic3)
 {
-//    alert("Height: " + window.innerHeight);
-    var p3 = document.getElementById(pic3);
-    //alert("curr h: " + p3.height);
+    alert("window inner: " + window.innerHeight);
+/*    var p3 = document.getElementById(pic3);
+    alert("curr h: " + p3.height);
     var p4 = document.getElementById('buttonSet');
     alert("buttonset h: " + p4.style.height);
     var newH = window.innerHeight - p4.height;
     newH += "px";
-    //alert("new h " + newH);
+    alert("new h " + newH);
     p3.removeAttribute("height");
-    p3.style.height = newH;
+    p3.style.height = newH;*/
 
 }
