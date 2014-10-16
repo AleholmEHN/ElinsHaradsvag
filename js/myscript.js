@@ -35,6 +35,9 @@ function fixPicSize()
     
     p1 = document.getElementById('bild1');
     p1.style.height = bildHeight;
+
+    // Prova fixa Samsung problem i kod
+    p1.
     
     p1 = document.getElementById('bild2');
     p1.style.height = bildHeight;
@@ -42,14 +45,16 @@ function fixPicSize()
     p1 = document.getElementById('bild3');
     p1.style.height = bildHeight;
     
+    // Prova fixa Samsung problem i kod
+    
 }
 
 function KartSize(pic3)
 {
-    alert("window inner: " + window.innerHeight);
-/*    var p3 = document.getElementById(pic3);
+
+    var p3 = document.getElementById(pic3);
     alert("curr h: " + p3.height);
-    var p4 = document.getElementById('buttonSet');
+/*    var p4 = document.getElementById('buttonSet');
     alert("buttonset h: " + p4.style.height);
     var newH = window.innerHeight - p4.height;
     newH += "px";
