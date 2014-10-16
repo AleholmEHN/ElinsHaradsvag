@@ -68,10 +68,10 @@ function KartSize()
     var p4 = document.getElementById('buttonSet');
     var btnH = p4.style.height;
     alert("buttonset h: " + p4.style.height);
-    var newH = window.innerHeight - p4.height;
+/*    var newH = window.innerHeight - p4.height;
     newH += "px";
     alert("new h " + newH);
     p3.removeAttribute("height");
-    p3.style.height = newH;
+    p3.style.height = newH;*/
 
 }
