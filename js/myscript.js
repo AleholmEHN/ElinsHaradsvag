@@ -62,7 +62,7 @@ function fixPicSize()
 function KartSize()
 {
 
-    var p3 = document.getElementById('karta');
+/*    var p3 = document.getElementById('karta');
     var myH = p3.current.innerHeight;
     alert("my h: " + myH);
     var p4 = document.getElementById('buttonSet');
