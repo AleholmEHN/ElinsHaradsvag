@@ -42,11 +42,13 @@ function fixPicSize()
     p1.style.height = bildHeight;
     p1.style.borderLeft = "3px";
     p1.style.borderRight = "3px";
+    p1.style.borderColor = "red";
     
     p1 = document.getElementById('bild3');
     p1.style.height = bildHeight;
     p1.style.borderLeft = "0 px";
     p1.style.borderRight = "0px";
+    p1.style.borderColor = "blue";
     
     // Prova fixa Samsung problem i kod
     
