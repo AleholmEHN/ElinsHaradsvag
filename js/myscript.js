@@ -59,18 +59,19 @@ function fixPicSize()
     
 }
 
-function KartSize(pic3)
+function KartSize()
 {
 
-    var p3 = document.getElementById(pic3);
-    var myH = p3.curr.height;
-    alert("curr h: " + myH);
-/*    var p4 = document.getElementById('buttonSet');
+    var p3 = document.getElementById('karta');
+    var myH = p3.current.innerHeight;
+    alert("my h: " + myH);
+    var p4 = document.getElementById('buttonSet');
+    var btnH = p4.style.height;
     alert("buttonset h: " + p4.style.height);
     var newH = window.innerHeight - p4.height;
     newH += "px";
     alert("new h " + newH);
     p3.removeAttribute("height");
-    p3.style.height = newH;*/
+    p3.style.height = newH;
 
 }
