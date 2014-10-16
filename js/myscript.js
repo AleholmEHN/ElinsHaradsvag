@@ -40,13 +40,15 @@ function fixPicSize()
     
     p1 = document.getElementById('bild2');
     p1.style.height = bildHeight;
-    p1.style.borderLeft = "3px";
-    p1.style.borderRight = "3px";
+    p1.removeAttribute(p1.style.border);
+    p1.style.borderLeft = "10px";
+    p1.style.borderRight = "10px";
+    p1.style.border="5px";
     p1.style.borderColor = "red";
     
     p1 = document.getElementById('bild3');
     p1.style.height = bildHeight;
-    p1.style.borderLeft = "0 px";
+    p1.style.borderLeft = "0px";
     p1.style.borderRight = "0px";
     p1.style.borderColor = "blue";
     
