@@ -33,7 +33,7 @@ body {
     border-bottom-style: solid;
     border-bottom-width: 4px;
      border-bottom-color: #4F2E1D;
-
+    -web-kit:transform:translate(0,0,0);
  }
 
 #bild1{
