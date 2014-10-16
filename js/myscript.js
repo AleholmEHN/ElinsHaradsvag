@@ -37,13 +37,16 @@ function fixPicSize()
     p1.style.height = bildHeight;
 
     // Prova fixa Samsung problem i kod
-    p1.
     
     p1 = document.getElementById('bild2');
     p1.style.height = bildHeight;
+    p1.style.borderLeft = "3px";
+    p1.style.borderRight = "3px";
     
     p1 = document.getElementById('bild3');
     p1.style.height = bildHeight;
+    p1.style.borderLeft = "0 px";
+    p1.style.borderRight = "0px";
     
     // Prova fixa Samsung problem i kod
     
