@@ -2,17 +2,56 @@
 $(function() {
     FastClick.attach(document.body);
 });
-        $(document).ready(function() {
+
+$(document).ready(function() {
             
-                 $menuLeft = $('.pushmenu-left');
-                $nav_list = $('#nav_list');
+    $menuLeft = $('.pushmenu-left');
+    $nav_list = $('#nav_list');
                  
-                $nav_list.click(function() {
-                        $(this).toggleClass('active');
-                        $('.pushmenu-push').toggleClass('pushmenu-push-toright');
-                        $menuLeft.toggleClass('pushmenu-open');
-                });
+    $nav_list.click(function() {
+        $(this).toggleClass('active');
+        $('.pushmenu-push').toggleClass('pushmenu-push-toright');
+        $menuLeft.toggleClass('pushmenu-open'); 
+    });
+});
+
+$(function()
+{
+    var image_is_loaded = false;
+    $("#karta").load(function() {
+        $(this).data('width', $(this).attr('width')).data('height', $(this).attr('height'));
+        $($(this).attr('usemap')+" area").each(function(){
+            $(this).data('coords', $(this).attr('coords'));
         });
+
+        $(this).css('width', '100%').css('height','auto').show();
+
+        image_is_loaded = true;
+        $(window).trigger('resize');
+    });
+
+
+    function ratioCoords (coords, ratio) {
+        coord_arr = coords.split(",");
+
+        for(i=0; i < coord_arr.length; i++) {
+            coord_arr[i] = Math.round(ratio * coord_arr[i]);
+        }
+
+        return coord_arr.join(',');
+    }
+    $(window).on('resize', function(){
+        if (image_is_loaded) {
+            var img = $("#karta");
+            var ratio = img.width()/img.data('width');
+
+            $(img.attr('usemap')+" area").each(function(){
+                console.log('1: '+$(this).attr('coords'));
+                $(this).attr('coords', ratioCoords($(this).data('coords'), ratio));
+            });
+        }
+    });
+});
 
 
 function fixPicSize()
@@ -62,7 +101,8 @@ function fixPicSize()
 function KartSize()
 {
 
-    var p3 = document.getElementById('karta');
+    //alert(window.innerHeight);
+/*    var p3 = document.getElementById('karta');
     var myH = 0;
     if (p3 != 0)        
         myH = p3.style.height;

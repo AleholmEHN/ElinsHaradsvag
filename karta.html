@@ -11,6 +11,11 @@
             
         <script type="text/javascript" async="" src="js/myscript.js"></script>
         <script type="application/javascript" src="js/fastclick.js"></script>
+        <script type="text/javascript">
+            function showtext(text){
+                alert(text);
+            }
+         </script>
     </head>
     
 <body class="pushmenu-push">
@@ -31,18 +36,27 @@
          
         <section class="content">
             <div id="karta">
-             <img id ="appkarta" src="bilder/karta%20till%20app.png"  usemap="Kartan" onload="KartSize()">
+                <div class="imageMap" aria-haspopup="true">
+			<img src="bilder/kartatillapp.png" alt="" />
+			<div class="hotspots">
+				<div><a href="http://www.aftonbladet.se" class="p1" rel="nofollow" aria-haspopup="false"></a><b class="b1"></b></div>
+		
+                
+<!--             <img id ="appkarta" src="bilder/kartatillapp.png"  usemap="Kartan" onload="KartSize()">
                 
                 <map name="Kartan">
-        <area shape="circle" coords="500,973,14" href="http://www.aftonbladet.se" alt="Mercury">
-        <area shape="circle" coords="484,821,14" href="http://www.aftonbladet.se" alt="Mercury">
-        <area shape="circle" coords="470,796,14" href="http://www.aftonbladet.se" alt="Mercury">
-        <area shape="circle" coords="438,772,14" href="http://www.aftonbladet.se" alt="Mercury">
-        <area shape="circle" coords="371,758,14" href="http://www.aftonbladet.se" alt="Mercury">
-        <area shape="circle" coords="340,753,14" href="http://www.aftonbladet.se" alt="Mercury">
-        <area shape="circle" coords="260,744,14" href="http://www.aftonbladet.se" alt="Mercury">
-        <area shape="circle" coords="265,702,14" href="http://www.aftonbladet.se" alt="Mercury">    
-        <area shape="circle" coords="279,649,14" href="http://www.aftonbladet.se" alt="Mercury">
+                <!--    <area shape="circle" coords="300, 100, 20" href="http://www.dn.se" alt="14"> -->
+<!-- <area shape="circle" coords="308,120,14" href="http://www.aftonbladet.se" alt="Mercury">                    
+      <!--  <area shape="circle" coords="500,973,200" href="http://www.dn.se" alt="Mercury" onmouseover="showtext('New York!')">
+        
+        <area shape="circle" coords="484,821,30" href="http://www.aleholm.se" alt="Mercury">
+        <area shape="circle" coords="470,796,30" href="http://www.aftonbladet.se" alt="Mercury">
+        <area shape="circle" coords="438,772,30" href="http://www.expressen.se" alt="Mercury">
+        <area shape="circle" coords="371,758,30" href="http://www.tv4.se" alt="Mercury">
+        <area shape="circle" coords="340,753,30" href="http://www.svt.se" alt="Mercury">
+        <area shape="circle" coords="260,744,30" href="http://www.sr.se" alt="Mercury">
+        <area shape="circle" coords="265,702,30" href="http://www.dagen.se" alt="Mercury">    
+        <area shape="circle" coords="279,649,30" href="http://www.savsjo.se" alt="Mercury">
         <area shape="circle" coords="251,609,14" href="http://www.aftonbladet.se" alt="Mercury">
         <area shape="circle" coords="251,531,14" href="http://www.aftonbladet.se" alt="Mercury">    
         <area shape="circle" coords="318,413,14" href="http://www.aftonbladet.se" alt="Mercury">    
@@ -53,10 +67,10 @@
         <area shape="circle" coords="330,103,14" href="http://www.aftonbladet.se" alt="Mercury">
         <area shape="circle" coords="323,79,14"  href="http://www.aftonbladet.se" alt="Mercury">
         <area shape="circle" coords="325,53,14"  href="http://www.aftonbladet.se" alt="Mercury">
+     -->      
             
             
-            
-        </map>
+  <!--      </map>
     
                 
 <!--        <img id ="appkarta" src="bilder/kartatill_app.png" >   -->
