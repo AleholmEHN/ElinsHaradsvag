@@ -101,7 +101,7 @@ function fixPicSize()
 function KartSize()
 {
 
-    //alert(window.innerHeight);
+    alert(window.innerHeight);
 /*    var p3 = document.getElementById('karta');
     var myH = 0;
     if (p3 != 0)        

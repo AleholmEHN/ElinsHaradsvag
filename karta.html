@@ -2,7 +2,7 @@
 <html>
     
    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, height=device-height initial-scale=1" />    
+<!--<meta name="viewport" content="width=device-width, height=device-height initial-scale=1" />  -->   
     <head><title>Sävsjö Häradsväg</title>
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -35,11 +35,16 @@
         </section>
          
         <section class="content">
-            <div id="karta">
+            <!--<div id="karta">-->
                 <div class="imageMap" aria-haspopup="true">
-			<img src="bilder/kartatillapp.png" alt="" />
+			<img src="bilder/kartatillapp.png" alt="" onload="KartSize()"/>
 			<div class="hotspots">
-				<div><a href="http://www.aftonbladet.se" class="p1" rel="nofollow" aria-haspopup="false"></a><b class="b1"></b></div>
+				<div>
+                    <a href="http://www.aftonbladet.se" class="p1" rel="nofollow" aria-haspopup="false"></a>
+                    <b class="b1"></b>
+                </div>
+                    </div>
+                    
 		
                 
 <!--             <img id ="appkarta" src="bilder/kartatillapp.png"  usemap="Kartan" onload="KartSize()">
