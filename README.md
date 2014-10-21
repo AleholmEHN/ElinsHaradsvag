@@ -1,4 +1,2 @@
-ElinsHaradsvag
-==============
-
-En testkopia av Häradsvägen
+haradsvagen
+===========
