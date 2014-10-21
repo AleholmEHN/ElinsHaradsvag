@@ -23,6 +23,10 @@
         if(newBodyHeight > 0 && newBodyHeight > bodyHeight) {
             $('#appkarta').height(newBodyHeight);
         }*/
+		
+		$("#appkarta").css("height", ($(window).height() - 42) + "px");
+		$("#appkarta").css("width", $(window).width() + "px");
+		
    
         });
 

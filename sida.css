@@ -29,17 +29,6 @@ body {
     overflow-y: hidden;
 }
 
-#appkarta{
-    position: absloute;
-    top:46px;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    width:100%;   
-    min-height: calc(100% - 46px);
-    overflow:hidden;
-}
-
 #ruta1 {
     padding: 12px;
     font-family: sans-serif;
