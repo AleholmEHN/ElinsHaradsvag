@@ -26,11 +26,11 @@ box-sizing: border-box;
 -webkit-box-sizing:border-box;
     width:100%;
     height: 100%;
-    
+    overflow-y: hidden;
 }
 
 #appkarta{
-    position: absolute;
+    position: absloute;
     top:46px;
     left:0px;
     right:0px;
