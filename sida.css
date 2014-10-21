@@ -31,9 +31,12 @@ display: flex;
 }
 
 #appkarta{
-width: inherit;
-height:inherit;
-
+position: absolute;
+top:46px;
+left:0px;
+right:0px;
+bottom:0px;
+    
 }
 
 #ruta1 {
