@@ -18,6 +18,10 @@
                         $menuLeft.toggleClass('pushmenu-open');
                 });
             
+            $("#appkarta").css("height", ($(window).height() - 42) + "px");
++		$("#appkarta").css("width", $(window).width() + "px");
+
+            
         });
 
 function fixPicSize()
