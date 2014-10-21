@@ -14,6 +14,16 @@
                         $('.pushmenu-push').toggleClass('pushmenu-push-toright');
                         $menuLeft.toggleClass('pushmenu-open');
                 });
+            
+                
+/*        var windowHeight = $(window).height();/* get the browser visible height on screen */
+/*        var headerHeight = $('#nav_list').height();/* get the header visible height on screen */
+/*        var bodyHeight = $('#appkarta').height();/* get the body visible height on screen */
+ /*       var newBodyHeight = windowHeight - headerHeight;
+        if(newBodyHeight > 0 && newBodyHeight > bodyHeight) {
+            $('#appkarta').height(newBodyHeight);
+        }*/
+   
         });
 
 function fixPicSize()
