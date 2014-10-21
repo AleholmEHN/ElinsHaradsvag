@@ -3,7 +3,17 @@
         $(document).ready(function() {
             
             
-            
+        // div -box som ska kopplas till ett tryck
+/*        $("#flags").bind("tap", function(){
+        
+          $("#ruta1").html("english.html");        
+        
+        });    */
+         $("#flags").bind("click", function(){
+        
+          $("#ruta1").html("This is a test");        
+        });    
+           
 
             $(function() {
     FastClick.attach(document.body);
@@ -18,6 +28,15 @@
                         $menuLeft.toggleClass('pushmenu-open');
                 });
             
+                
+        var windowHeight = $(window).height();/* get the browser visible height on screen */
+        var headerHeight = $('#nav_list').height();/* get the header visible height on screen */
+        var bodyHeight = $('#appkarta').height();/* get the body visible height on screen */
+        var newBodyHeight = windowHeight - headerHeight;
+        if(newBodyHeight > 0 && newBodyHeight > bodyHeight) {
+            $('#appkarta').height(newBodyHeight);
+        }
+   
         });
 
 function fixPicSize()
