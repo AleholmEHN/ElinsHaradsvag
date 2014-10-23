@@ -37,7 +37,7 @@ body {
     overflow: scroll;
     position:fixed;
     bottom:0;
-    
+    color:#ff00ff;
 }
 
 #header {
@@ -55,7 +55,7 @@ body {
 .slider {
     border-bottom-style: solid;
     border-bottom-width: 0px;
-    border-bottom-color: #4F2E1D;
+    border-bottom-color: ##ff00ff;
     display: flex;
     position:fixed;
     overflow:hidden;
