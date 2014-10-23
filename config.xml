@@ -13,7 +13,8 @@
         <author email="info@aleholm.savsjo.se" href="http://www.savsjo.se">
             Teknikprogrammet TE12, Aleholm
         </author>
-        <content src="index.html" />
+ <!--       <content src="index.html" /> -->
+        <content src="karta.html" />  
         <access origin="*" />
 
         <icon src="ikon.png" />
