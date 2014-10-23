@@ -37,12 +37,11 @@ body {
     overflow: scroll;
     position:fixed;
     bottom:0;
-    color:#ff00ff;
 }
 
 #header {
     position:fixed;
-    top:0;
+    top:42px;
     overflow: hidden;
     
 }
