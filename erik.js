@@ -21,6 +21,9 @@
             $("#appkarta").css("height", ($(window).height() - 42) + "px");
 +		$("#appkarta").css("width", $(window).width() + "px");
 
+            $('.slider').css("top", $("#header_image").height() + "px");
+   
+            $("#ruta1").css("top", $("#header_image").height() + $('.slider').height() + "px");
             
         });
 
