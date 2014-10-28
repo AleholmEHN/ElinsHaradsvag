@@ -1,0 +1,185 @@
+
+ 
+.pushmenu3 {
+        background: #3c3933;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        width: 240px;
+        height: 100%;
+        top: 0;
+        z-index: 1;
+}
+ 
+.pushmenu3 h3 {
+        color: #cbbfad;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 15px 20px;
+        margin: 0;
+        background: #282522;    
+        height: 16px;
+}
+ 
+.pushmenu3 a {
+        display: block; 
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        border-top: 1px solid #57544e;
+        border-bottom: 1px solid #312e2a;
+        padding: 14px;
+}
+ 
+.pushmenu3 a:hover {
+        background:258ecd;      
+}
+ 
+.pushmenu3 a:active {
+        background: #454f5c;
+        color: #fff;    
+}
+ 
+.pushmenu3-left {
+        left: -240px;   
+}
+ 
+.pushmenu3-left.pushmenu3-open {
+        left: 0px;      
+}
+ 
+.pushmenu3-push {
+        overflow-x: hidden;
+        position: relative;
+        left: 0;        
+}
+ 
+.pushmenu3-push-toright {
+        left: 240px;    
+}
+ 
+/*Transition*/
+.pushmenu3, .pushmenu3-push {
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;      
+}
+ 
+#nav_list3 {
+        background: url(icon_nav.png) no-repeat left top;
+        cursor: pointer;
+      
+        height: 27px;
+        width: 33px;
+        text-indent: -99999em; 
+    
+}
+ 
+#nav_list3.active {
+        background-position: -33px top; 
+}
+ 
+.buttonset3 {
+        background: linear-gradient(center top , #6b85b3, #334d86);
+        background:-moz-linear-gradient(center top , #6b85b3, #334d86);
+    background: -webkit-gradient(linear, center top, center bottom, from(#4F2E1D), to(#4F2E1D));
+        width: 50%;
+        height: 16px;
+        padding: 10px 20px 20px;
+}
+
+<!--  Right menu -->
+.pushmenu2 {
+        background: #3c3933;
+        font-family: Arial, Helvetica, sans-serif;
+        position: right;
+        width: 100px;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 1;
+}
+ 
+.pushmenu2 h3 {
+        color: #cbbfad;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 15px 20px;
+        margin: 0;
+        background: #282522;    
+        height: 16px;
+}
+ 
+.pushmenu2 a {
+        display: block;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        border-top: 1px solid #57544e;
+        border-bottom: 1px solid #312e2a;
+        padding: 14px;
+}
+ 
+.pushmenu2 a:hover {
+        background:258ecd;      
+}
+ 
+.pushmenu2 a:active {
+        background: #454f5c;
+        color: #fff;    
+}
+ 
+.pushmenu2-right {
+        left: -240px;   
+}
+ 
+.pushmenu2-right.pushmenu2-open {
+        right: 240px;      
+}
+ 
+.pushmenu2-push {
+        overflow-x: hidden;
+        position: fixed;
+        right: -240px;        
+}
+ 
+.pushmenu2-push-toright {
+        right: 0px; 
+
+}
+ 
+/*Transition*/
+.pushmenu2, .pushmenu2-push {
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;      
+}
+ 
+#nav_list2 {
+        background: url(bilder/flag1.jpeg) no-repeat right top; 
+        cursor: pointer;
+      
+        height: 27px;
+        width: 33px;
+        text-indent: -99999em; 
+        position:fixed;
+        right: 0;
+}
+ 
+#nav_list2.active {
+        background-position: -33px top; 
+}
+ 
+.buttonset2 {
+        background: #4F2E1D;
+        height: 16px;
+        padding: 10px 20px 20px;
+       
+    position: fixed;
+    top:0px;
+    }
+
+
+
+
