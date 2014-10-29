@@ -270,8 +270,10 @@ ul {
 ul li {
   font: bold 12px/18px sans-serif;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: 0px;
   position: relative;
+  right: 0px;
+  width: 100px;
   padding: 15px 20px;
   background: #fff;
   cursor: pointer;
@@ -282,7 +284,7 @@ ul li {
   transition: all 0.2s;
 }
 
-ul li:hover {
+ul li:tap     {
   background: #555;
   color: #fff;
 }
@@ -313,16 +315,21 @@ ul li ul li {
   color: #000;
 }
 
-ul li ul li:hover 
+ul li ul li:tap 
 { 
     background: #666; 
 }
 
-ul li:hover ul {
+ul li:tap ul {
   display: block;
   opacity: 1;
   visibility: visible;
 }
+<!--ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}-->
 
 .right-menu
 {
@@ -334,6 +341,25 @@ ul li:hover ul {
     
 }
 
+<!--a:visited
+{
+    color:#000;
+}
+
+a:link {
+    color: #000;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: #000;
+}
+
+/* selected link */
+a:active {
+    color: #000;
+} -->
 
 
 
