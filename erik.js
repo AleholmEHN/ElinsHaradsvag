@@ -18,25 +18,6 @@
                         $menuLeft.toggleClass('pushmenu-open');
                 });
             
-            // Right menu
-                $menuLeft2 = $('.pushmenu2-left');
-                $nav_list2 = $('#nav_list2');
-                 
-                $nav_list2.click(function() {
-                        $(this).toggleClass('active');
-                        $('.pushmenu2-push').toggleClass('pushmenu2-push-toright');
-                        $menuLeft2.toggleClass('pushmenu2-open');
-                });
-
-             // Right menu
-                $menuLeft3 = $('.pushmenu3-left');
-                $nav_list3 = $('#nav_list3');
-                 
-                $nav_list3.click(function() {
-                        $(this).toggleClass('active');
-                        $('.pushmenu3-push').toggleClass('pushmenu3-push-toright');
-                        $menuLeft3.toggleClass('pushmenu3-open');
-                });
 
            $('.slider').css("top", $("#header_image").height() + 42 + "px");
    
