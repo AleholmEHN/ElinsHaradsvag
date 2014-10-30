@@ -3,52 +3,35 @@ html {
 }
 
 .container{
-    margin: 0px;
-    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     overflow: hidden;
 
 }
 
 body {
-    margin-top: 0;
+    margin-top: 0px;
+    margin-bottom:0px;
     margin-left: auto;
     margin-right: auto;
     width:100%;
     background-color:#F6F6F0;
-            <!-- border-style: solid;
-            border-width: 10px;
-            border-color: blue;-->
-}
-
-#karta {
-    box-sizing: border-box;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-<!--    width:100%; -->
-
-    overflow-y: hidden;
-}
-
-#appkarta{
-    position: absloute;
-    top:46px;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    width:100%;   
-    min-height: calc(100% - 46px);
-    overflow:hidden;
+            
 }
 
 #ruta1 {
     padding: 12px;
     font-family: sans-serif;
     font-size: 14pt;
-    overflow: hidden;
-    
+    overflow: scroll;
+    position:fixed;
+    bottom:0;
 }
 
 #header {
+    position:fixed;
+    top:42px;
+    overflow: hidden;
     
 }
 #header_image {
@@ -62,8 +45,8 @@ body {
     border-bottom-width: 0px;
     border-bottom-color: #4F2E1D;
     display: flex;
-
-    
+    position:fixed;
+    overflow:hidden;
 }
 
 .bilden {
@@ -137,7 +120,7 @@ body {
         width: 240px;
         height: 100%;
         top: 0;
-        z-index: 1000;
+        z-index: 1;
 }
  
 .pushmenu h3 {
@@ -203,28 +186,21 @@ body {
         width: 33px;
         text-indent: -99999em;  
 }
-
-#flags
-{
-    background: url(bilder/flag1.png) no-repeat right top;
-    position:relative;
-    cursor:pointer;
-    height: 27px;
-    width: 33px;
-    
-}
  
 #nav_list.active {
         background-position: -33px top; 
 }
  
 .buttonset {
-        background: linear-gradient(center top , #6b85b3, #334d86);
-        background:-moz-linear-gradient(center top , #6b85b3, #334d86);
-    background: -webkit-gradient(linear, center top, center bottom, from(#4F2E1D), to(#4F2E1D));
+        
+    background: #4F2E1D;
+        width: 100%;
         height: 16px;
         padding: 10px 20px 20px;
 }
+
+
+
  
 section.content {
         font-family: Arial, Helvetica, sans-serif;
@@ -232,6 +208,96 @@ section.content {
         overflow:hidden;
 
 }
+
+
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: 0px;
+  position: relative;
+  right: 0px;
+  width: 100px;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+ul li:tap     {
+  background: #555;
+  color: #fff;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 43px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+
+ul li ul li { 
+  background: #fff; 
+    opacity: 1;
+  display: block; 
+  color: #000;
+}
+
+ul li ul li:tap 
+{ 
+    background: #666; 
+}
+
+ul li:tap ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.right-menu
+{
+    height: 46px;
+    width: 100px;
+    position:fixed;
+    top: 0px;
+    right: 50px;
+    
+}
+
+
+
+
+
+
+
+
 
 
 
