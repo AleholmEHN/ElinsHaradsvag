@@ -240,7 +240,7 @@ ul li {
   transition: all 0.2s;
 }
 
-ul li:active     {
+ul li:hover     {
   background: #555;
   color: #fff;
 }
@@ -271,12 +271,12 @@ ul li ul li {
   color: #000;
 }
 
-ul li ul li:active 
+ul li ul li:hover 
 { 
     background: #666;
 }
 
-ul li:active ul {
+ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
