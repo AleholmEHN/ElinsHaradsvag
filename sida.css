@@ -240,7 +240,7 @@ ul li {
   transition: all 0.2s;
 }
 
-ul li:tap     {
+ul li:hover     {
   background: #555;
   color: #fff;
 }
@@ -271,12 +271,12 @@ ul li ul li {
   color: #000;
 }
 
-ul li ul li:tap 
+ul li ul li:hover 
 { 
-    background: #666; 
+    background: #666;
 }
 
-ul li:tap ul {
+ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
